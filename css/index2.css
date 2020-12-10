@@ -1,0 +1,122 @@
+#div {
+	width: 37px;
+	height: 33px;
+	background: url('../images/iconss.png') no-repeat -238px -91px ;
+	display:inline-block;
+}
+
+#div1 {
+	width: 37px;
+	height: 33px;
+	background: url('../images/iconss.png') no-repeat -239px -16px;
+	opacity: 0%;
+}
+
+#div2 {
+	width: 36px;
+	height: 33px;
+	background: url('../images/iconss.png') no-repeat -123px -90px;
+	display:inline-block;
+}
+
+#div3 {
+	width: 36px;
+	height: 33px;
+	background: url('../images/iconss.png') no-repeat -125px -16px;
+	opacity: 0%;
+}
+
+#div4 {
+	width: 34px;
+	height: 34px;
+	background: url('../images/iconss.png') no-repeat -182px -91px;
+	display:inline-block;
+}
+
+#div5 {
+	width: 34px;
+	height: 34px;
+	background: url('../images/iconss.png') no-repeat -297px -17px;
+	opacity: 0%;
+}
+
+#mal:hover #div1{
+	animation: fadeIn ease 0.2s;
+	-webkit-animation: fadeIn ease 0.2s;
+	-moz-animation: fadeIn ease 0.2s;
+	-o-animation: fadeIn ease 0.2s;
+	-ms-animation: fadeIn ease 0.2s;
+}
+
+#youtube:hover #div3{
+	animation: fadeIn ease 0.2s;
+	-webkit-animation: fadeIn ease 0.2s;
+	-moz-animation: fadeIn ease 0.2s;
+	-o-animation: fadeIn ease 0.2s;
+	-ms-animation: fadeIn ease 0.2s;
+}
+
+#twitter:hover #div5{
+	animation: fadeIn ease 0.2s;
+	-webkit-animation: fadeIn ease 0.2s;
+	-moz-animation: fadeIn ease 0.2s;
+	-o-animation: fadeIn ease 0.2s;
+	-ms-animation: fadeIn ease 0.2s;
+}
+
+@keyframes fadeIn{
+  0% {
+	opacity:0;
+  }
+  100% {
+	opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+	opacity:0;
+  }
+  100% {
+	opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+	opacity:0;
+  }
+  100% {
+	opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+	opacity:0;
+  }
+  100% {
+	opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+	opacity:0;
+  }
+  100% {
+	opacity:1;
+  }
+}
+
+#mal:hover #div1{
+	opacity: 100%
+}
+
+#youtube:hover #div3{
+	opacity: 100%
+}
+
+#twitter:hover #div5{
+	opacity: 100%
+}

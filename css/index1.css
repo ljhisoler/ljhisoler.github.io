@@ -1,0 +1,101 @@
+body {
+	font-family: "Bahnschrift Light", Bahnschrift Light, Arial, sans-serif;
+	background-color: #CDC7C5;
+}
+
+h4 {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	font-family: Bodoni MT Black;
+}
+
+.sprite {
+	background: url('../images/sprite.png') no-repeat -30px -26px;
+	width: 407px;
+	height: 184px;
+	animation: varName 1s steps(2) infinite;
+	display:block;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+@keyframes varName{
+	from{background-position-x:0px;}
+	to{background-position-x:-786px;}
+}	
+
+#containerContainer {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+#containerContainerContainer {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.a {
+	margin: 5px;
+	display: inline-block;
+	height: 550px;
+	width: 150px;
+}
+
+.image {
+	padding: 70px 0;
+	display: block;
+}
+
+#zoro, #luffy, #sanji, #sabo {
+	color: inherit;
+	transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+	transition: font-weight 0.1s cubic-bezier(.33,.66,.66,1);
+}
+
+#zoro:hover {
+	background: #639966;
+	font-weight: bold;
+}
+
+#luffy:hover {
+	background: #a86d6d;
+	font-weight: bold;
+}
+
+#sanji:hover {
+	background: #bfb178;
+	font-weight: bold;
+}
+
+#sabo:hover {
+	background: #6469a3;
+	font-weight: bold;
+}
+
+.right {
+	display: block;
+	margin-left: auto;
+}
+	
+.backLayer {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	max-width: 100%;
+	height: auto;	
+	z-index: -1;
+}
+
+.subheader {
+	margin-top: 34%;
+	position:relative;
+}

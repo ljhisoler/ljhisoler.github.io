@@ -1,0 +1,36 @@
+body {
+	font-family: "Bahnschrift Light", Bahnschrift Light, Arial, sans-serif;
+	background-color: #CDC7C5;
+}
+	
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0%;
+}
+	
+.left {
+	display: block;
+	margin-right: auto;
+}
+	
+.backLayer {
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;	
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	height: auto;
+	z-index: -1;
+}
+	
+ul {
+	list-style-position: inside;
+}
+	
+.figure {
+	margin-top:20%;
+	font-size:23px;
+	text-align:center;
+}
